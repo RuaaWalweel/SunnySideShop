@@ -81,7 +81,7 @@ header {
     justify-content: center;
     height: 800px;
     background-image: url(images/desktop/image-header.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: var(--primary-color);
@@ -358,7 +358,7 @@ footer {
     .main {
         width: 100%;
         background-image: url(images/mobile/image-header.jpg);
-        background-size: contain;
+        background-size: cover;
     }
     .main h1 {
         font-size: 28px;
@@ -464,7 +464,7 @@ footer {
     }
     
     .text-block p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .image-block2 {
         background-image: url(images/mobile/image-stand-out.jpg);
@@ -473,7 +473,7 @@ footer {
         height: 100%;
     }
     .text-block, .service {
-        
+
         padding: 15px;
     }
     .graphic-design {
