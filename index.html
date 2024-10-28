@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sunnyside is a creative agency helping brands grow with compelling visuals and strategy.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Sunnyside Agency Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header role="banner">
+    <div class="logo">Sunnyside</div>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+        <a href="#services" aria-label="Services">Services</a>
+        <a href="#testimonials" aria-label="Testimonials">Testimonials</a>
+        <a href="#portfolio" aria-label="Portfolio">Portfolio</a>
+        <a href="#contact" aria-label="Contact">Contact</a>
+        <button class="contact-button" aria-label="Contact Us">Contact Us</button>
+    </nav>
+</header>
+
+<main role="main">
+  <section class="main">
+      <h1>We Are Creatives</h1>
+      <div class="down-arrow" aria-hidden="true">↓</div>
+  </section>
+
+  <section class="grid-section">
+      <div class="text-block">
+          <h2>Transform your brand</h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#learn-more1" class="learn-more1">Learn More</a>
+      </div>
+      <div class="image-block image-block1"></div>
+      <div class="image-block image-block2"></div>
+      <div class="text-block">
+          <h2>Stand out to the right audience</h2>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+          <a href="#learn-more2" class="learn-more2">Learn More</a>
+      </div>
+  </section>
+
+  <section class="services" id="services">
+      <div class="service graphic-design">
+          <h2>Graphic Design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+      </div>
+      <div class="service photography">
+          <h2>Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+  </section>
+
+  <section class="testimonials">
+    <h3>Client Testimonials</h3>
+    <div class="testimonial">
+        <img src="images/image-emily.jpg" alt="Emily" loading="lazy">
+        <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h4>Emily R.</h4>
+        <span>Marketing Director</span>
+    </div>
+    <div class="testimonial">
+        <img src="images/image-thomas.jpg" alt="Thomas" loading="lazy">
+        <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h4>Thomas S.</h4>
+        <span>Chief Operating Officer</span>
+    </div>
+    <div class="testimonial">
+        <img src="images/image-jennie.jpg" alt="Jennie" loading="lazy">
+        <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h4>Jennie F.</h4>
+        <span>Business Owner</span>
+    </div>
+  </section>
+
+  <div class="img-sec">
+    <div>
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles gallery image" loading="lazy">
+    </div>
+    <div>
+      <img src="images/desktop/image-gallery-orange.jpg" alt="Orange gallery image" loading="lazy">
+    </div>
+    <div>
+      <img src="images/desktop/image-gallery-cone.jpg" alt="Cone gallery image" loading="lazy">
+    </div>
+    <div>
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes gallery image" loading="lazy">
+    </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-logo">Sunnyside</div>
+    <nav class="footer-nav">
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="social-icons">
+        <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#" aria-label="Twitter"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+    </div>
+</footer>
+
+<button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+<div class="lightbox" id="lightbox">
+    <span class="close" id="close-lightbox">&times;</span>
+    <img class="lightbox-image" id="lightbox-image" src="" alt="">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
